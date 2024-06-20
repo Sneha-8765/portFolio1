@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--boxicon link--> 
+<link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<!--google font link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- --header section-- -->
+<header>
+  <a href="#" class="logo">
+      <span>P</span>ortFolio</a>
+      <ul class="navbar">
+          <li><a href="#" class="active"> Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contacts</a></li>
+
+      </ul>
+      <div class="menu-btn">
+          <span>INTRO</span>
+          <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+</header>
+<!-- --home section-- -->
+ <section class="home">
+    <div class="home-text">
+        <span>Software Developer</span>
+        <h1> Sneha Gupta</h1>
+        <p> I am Self-motivated and diligent fresher eager to
+            leverage skills and knowledge in a dynamic
+            environment. Strong believer in teamwork and
+            committed to contributing to organizational growth
+            while gaining practical experience.
+            </p>
+    <div class="main-btn">
+        <a href="#" class="btn">Download CV</a>
+        <a href="#" class="btn two">Hire me Now</a>
+    </div>
+    </div>
+    <div class="home-img">
+        <img src="img/new pic.jpg" 
+     ></div>
+ </section>
+ <div class="share">
+    <p>Check out my: </p>
+        <a href="#"><i class='bx bxl-facebook'></i></a> 
+        <a href="#"><i class='bx bxl-twitter'></i></a> 
+        <a href="https://www.instagram.com/sneha.gupta_15/?next=%2F&hl=en"><i class='bx bxl-instagram'></i></a> 
+        <a href="https://www.linkedin.com/in/sneha-gupta-940229261/"><i class='bx bxl-linkedin-square'></i></a>        
+    </div>
+ </div>
+
+
+   <!-- Project Section Start -->
+     <section id="projects" class="projectSection">
+      <h2 class="projectTitle">Projects</h2>
+      <div class="projectContainer">
+        <div class="projectCard" id="project1" style="background-image: url(images/pro3.png);">
+          <div class="projectNumber rightNumber">01</div>
+          <div class="projectContent leftProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+              <!-- <img class="projectSkill" src="./images/stack/Express.png" alt="" />
+              <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+              <img class="projectSkill" src="./images/stack/NodeJs.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/MongoDB.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Redux.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" /> -->
+            </div>
+            <h2 class="projectHeading"> Tribute Page</h2>
+            <p class="projectSubHeading">
+              It is a Tribute page  website where user can access the  biography of Kalpana chawla.
+            </p>
+            <div class="btnGroup">
+              <button class="live-btn"  onclick="window.location.href ="#">Live</button>  
+              <button class="git-btn" onclick="window.location.href = 'https://github.com/Sneha-8765/Tribute-page';" >GitHub</button>                         
+            </div>
+          </div>
+        </div>
+
+        <div class="projectCard" id="project2" style="background-image: url(images/pro4.png);">
+          <div class="projectNumber leftNumber">02</div>
+          <div class="projectContent rightProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <!-- <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" /> -->
+              <!-- <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" /> -->
+              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+<!-- 
+              <img class="projectSkill" src="./images/stack/Redux.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" /> -->
+            </div>
+            <h2 class="projectHeading">Image Gallery </h2>
+            <p class="projectSubHeading">
+              
+            </p>
+            <div class="btnGroup">
+              <button class="live-btn" onclick="window.location.href = "#">Live</button>
+              <button class="git-btn" onclick="window.location.href = 'https://github.com/Sneha-8765/image-gallery';">GitHub</button>
+            
+            </div>
+          </div>
+        </div>
+        <div class="projectCard" id="project3" style="background-image: url(images/pro2.png);">
+          <div class="projectNumber rightNumber">03</div>
+          <div class="projectContent leftProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+
+              <!-- <img class="projectSkill" src="./images/stack/Express.png" alt="" />
+              <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" />
+            <img class="projectSkill" src="./images/stack/Vercel.svg" alt=""  -->
+            </div>
+            <h2 class="projectHeading">Parallax website</h2>
+            <p class="projectSubHeading">
+              
+            </p>
+            <div class="btnGroup">
+            <button class="live-btn"  onclick="window.location.href = '#';">Live</button>
+           <button class="git-btn"  onclick="window.location.href = 'https://github.com/Sneha-8765/parallexpractice';">GitHub</button>
+            </div>
+          </div>
+        </div>
+        <div class="projectCard" id="project4" style="background-image: url(images/pro1.png);">
+          <div class="projectNumber leftNumber">04</div>
+          <div class="projectContent rightProjectContent">
+            <div class="projectSkillsContainer">
+              <!-- <img class="projectSkill" src="./images/stack/NextJsCircle.png" alt="" /> -->
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Tailwind.png" alt="" />
+
+              <!-- <img class="projectSkill" src="./images/stack/Vercel.svg" alt="" /> -->
+            </div>
+            <h2 class="projectHeading">Salt Landing Page</h2>
+            <p class="projectSubHeading">
+              Create Random password on the basis of condition given and user can copy it also.
+            </p>
+            <div class="btnGroup">
+              <button class="live-btn" onclick="window.location.href = 'https://salt-landing-main.vercel.app/'">Live</button>
+              <button class="git-btn" onclick="window.location.href = 'https://github.com/Sneha-8765/SaltLanding-main';">GitHub</button>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section End  -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+          <h2>Contact <span>Me</span></h2>
+          <h4>Let's Work Together</h4>
+          <p>I'm a frontend web developer passionate about crafting captivating user experiences. My proficiency in HTML, CSS, and JavaScript ensures seamless, responsive interfaces. Committed to user-centric design, I collaborate effectively and bring ideas to life. I'm currently expanding my skill set into backend development with Node.js, Python, and databases like MongoDB and PostgreSQL. By partnering with me, you get a developer dedicated to bridging frontend finesse with powerful backend functionality. Let's connect and elevate your web projects together. I'm ready to explore new challenges and help you achieve your digital goals.
+  
+            Feel free to use this concise version in your portfolio</p>
+          <div class="contact-list">
+            <li><i class='bx bxs-send'></i>snehagupta8765@gmail.com</li>
+            <li><i class='bx bx-phone'></i>7572073946</li> 
+          </div>
+          <div class="contact-icons">
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+            <a href=""><i class='bx bxl-twitter' ></i></a>
+            <a href=""><i class='bx bxl-instagram' ></i></a>
+            <a href=""><i class='bx bxl-linkedin' ></i></a>
+          </div>
+        </div>
+  
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xqkvwpgk" method="POST">
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <input type="text" placeholder="Enter Your Subject" required>
+            <textarea name="" id="" cols="30" rows="40" placeholder="Enter Your Message" required></textarea>
+  
+            <input type="submit" value="submit" class="send">
+          </form>
+        </div>
+      </section>
+      <div class="counter">
+        <!-- hitwebcounter Code START -->
+  <a href="https://www.hitwebcounter.com" target="_blank">
+    <img src="https://hitwebcounter.com/counter/counter.php?page=9381988&style=0010&nbdigits=4&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>           
+      </div>
+      <div class="last-text">
+        <p>Copyright &copy; All Rights Reserved</p>
+      </div>
+      <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+ <script src="https://unpkg.com/scrollreveal"></script>
+<!-- --custom-js file link-- -->
+<script src="script.js"> </script>
+</body>
+</html>
